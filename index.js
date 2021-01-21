@@ -62,6 +62,6 @@ function placeOrder(cardNumber) {
   }else {
     let cost = total()
     cart.splice(0,cart.length)
-    return `Your total cost is ${cost}, which will be charged to the card ${cardNumber}.`
+    return `Your total cost is $${cost}, which will be charged to the card ${cardNumber}.`
   }
 }
