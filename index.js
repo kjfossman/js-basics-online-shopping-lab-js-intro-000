@@ -16,7 +16,7 @@ function getRandomInt(max) {
 function addToCart(item) {
   let max = 100
  var object = {itemName: `${item}`, itemPrice: getRandomInt(max)}
-  cart.unshift(object)
+  cart.push(object)
   return `${item} has been added to your cart.`
 }
 
