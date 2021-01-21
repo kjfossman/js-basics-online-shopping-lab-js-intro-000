@@ -52,12 +52,11 @@ function removeFromCart(item) {
     if(item === cart[i].itemName){
     cart.splice(i,1)
     return cart
-}   else
+}   else{
     return `That item is not in your cart.`
+  }
 }
-else{
-     return `That item is not in your cart.`
-}
+
 }
 
 function placeOrder(cardNumber) {
